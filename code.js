@@ -1,5 +1,12 @@
 // Code goes here
-var a = [8,2,10,5,1,6,11,15,9,8,10];
+var a = [];
+var size= prompt("Enter how many elements you have to add?");
+alert(`Enter elements ${size} times`);
+for(var i=0;i<size;i++){
+    a[i]=prompt(`Enter element no ${i+1} `);
+}
+
+//var a = [1, 9, 2, 3, 3, 3, 3, 3, 4, 4, 5, 6, 7, 8, 5, 6, 6, 9, 10, 10];
 //array before sorting
 document.write("original array<br>"+a);
 
